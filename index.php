@@ -13,13 +13,15 @@
 	<?php
 	if (isset($parrafo_2) ):
 	?>
-		<p><?= $parrafo_2 ?></p>
+		<p><?= $parrafo_2?></p>
 	<?php
 	endif;
 	?>
 
 	<?php
-
+	if (file_exists('jm.php')){
+		include_once('jm.php');
+	}
 	
   if (file_exists('brandon.php')) {
 		include_once('brandon.php');
@@ -34,5 +36,6 @@
 		include_once('roger.php');
 	}
 	?>
+
 </body>
 </html>
