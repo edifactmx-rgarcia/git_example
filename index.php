@@ -13,7 +13,7 @@
 	<?php
 	if (isset($parrafo_2) ):
 	?>
-		<p><?= $parrafo_2 ?></p>
+		<p><?= $parrafo_2?></p>
 	<?php
 	endif;
 	?>
