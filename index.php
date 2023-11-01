@@ -17,5 +17,13 @@
 	<?php
 	endif;
 	?>
+
+	<?php
+	if (file_exists('lsulu.php') ):
+		include_once('lsulu.php');
+	?>
+	<?php
+	endif;
+	?>
 </body>
 </html>
