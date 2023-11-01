@@ -19,6 +19,8 @@
 	?>
 
 	<?php
+
+	
   if (file_exists('brandon.php')) {
 		include_once('brandon.php');
 	}
@@ -27,6 +29,10 @@
 	?>
 	<?php
 	endif;
+
+	if (file_exists('roger.php')) {
+		include_once('roger.php');
+	}
 	?>
 </body>
 </html>
