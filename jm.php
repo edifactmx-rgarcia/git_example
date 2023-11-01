@@ -7,6 +7,6 @@
 	<title><?= $name ?></title>
 </head>
 <body>
-	<h1>Bienvenido jm</h1>
+	<h1>Bienvenido Jos&eacute; Manuel</h1>
 </body>
 </html>
