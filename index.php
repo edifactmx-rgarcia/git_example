@@ -17,5 +17,11 @@
 	<?php
 	endif;
 	?>
+
+	<?php
+	if (file_exists('roger.php')) {
+		include_once('roger.php');
+	}
+	?>
 </body>
 </html>
