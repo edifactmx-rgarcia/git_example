@@ -9,5 +9,13 @@
 <body>
 	<h1>Bienvenido <?= $user_name ?></h1>
 	<p><?= $parrafo_1 ?></p>
+
+	<?php
+	if (isset($parrafo_2) ):
+	?>
+		<p><?= $parrafo_2 ?></p>
+	<?php
+	endif;
+	?>
 </body>
 </html>
