@@ -8,5 +8,6 @@
 </head>
 <body>
 	<h1>Bienvenido <?= $user_name ?></h1>
+	<p><?= $parrafo_1 ?></p>
 </body>
 </html>
