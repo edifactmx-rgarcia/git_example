@@ -7,22 +7,6 @@
 	<title><?= $name ?></title>
 </head>
 <body>
-	<h1>Bienvenido <?= $user_name ?></h1>
-	<p><?= $parrafo_1 ?></p>
-
-	<?php
-	if (isset($parrafo_2) ):
-	?>
-		<p><?= $parrafo_2 ?></p>
-	<?php
-	endif;
-	?>
-
-	<?php
-	if (file_exists('jm.php')){
-		include_once('jm.php');
-	}
-	?>
-
+	<h1>Bienvenido jm</h1>
 </body>
 </html>
