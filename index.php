@@ -19,6 +19,17 @@
 	?>
 
 	<?php
+
+	
+  if (file_exists('brandon.php')) {
+		include_once('brandon.php');
+	}
+	if (file_exists('lsulu.php') ):
+		include_once('lsulu.php');
+	?>
+	<?php
+	endif;
+
 	if (file_exists('roger.php')) {
 		include_once('roger.php');
 	}
